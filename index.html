@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News.org</title>
+
+    <!-- Data AOS  Link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Data AOS  Link -->
+
+    <!-- Tailwind Script file -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind Script file -->
+  </head>
+  <body>
+    <!-- Header section -->
+    <header class="h-[60px] bg-blue-500 px-10 sticky top-0 z-[999]">
+      <nav class="h-full w-full flex items-center">
+        <div class="logo-section">
+          <img
+            src="src/assets/images/news-3.jpg"
+            class="w-[50px] h-[50px] object-cover"
+            alt="world-news.png"
+          />
+        </div>
+        <div class="nav-sectoin w-full">
+          <ul
+            class="h-full flex justify-around items-center text-sm text-white cursor-pointer"
+          >
+            <li
+              class="hover:text-black hover:transition-all hover:duration-300 hover:scale-105"
+            >
+              <a href="index.html">Home</a>
+            </li>
+            <li
+              class="hover:text-black hover:transition-all hover:duration-300 hover:scale-105"
+            >
+              <a href="index.html">About</a>
+            </li>
+            <li
+              class="hover:text-black hover:transition-all hover:duration-300 hover:scale-105"
+            >
+              <a href="index.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Main Section -->
+    <main class="p-5">
+      <section
+        class="content-section h-full w-full flex justify-between gap-2.5"
+      >
+        <!--First Article  -->
+        <article class="news-area">
+          <div
+            class="news-container border rounded-md hover:border-blue-800 hover:bg-slate-200 min-h-[545px]"
+            data-aos="flip-left"
+            data-aos-duration="500"
+            data-aos-easing="easy-in-out"
+          >
+            <div class="news-content p-5 flex flex-col gap-5 min-h-[545px]">
+              <h1 class="font-bold text-center px-1">
+                UEFA made a statement about the new format of the Champions
+                League from the next season
+              </h1>
+              <div class="w-full h-full overflow-hidden">
+                <img
+                  class="hover:scale-105 transition-all duration-300 ease-in-out"
+                  src="src/assets/images/FotoJet (17).jpg"
+                  alt="Champions-League.png"
+                />
+              </div>
+              <p class="text-center mt-5">
+                <i
+                  >The Union of European Football Associations (UEFA) has
+                  presented images to explain the new format of the Champions
+                  League from next season.</i
+                >
+              </p>
+              <a
+                id="info-icon"
+                href="UefaDetail.html"
+                class="relative text-black mt-5 w-full h-full text-center bg-blue-500 rounded-md p-1 hover:bg-blue-700 hover:text-white transition-all"
+                >More Info
+              </a>
+            </div>
+          </div>
+        </article>
+        <!--First Article End -->
+
+        <!-- Second Article -->
+        <article class="news-area">
+          <div
+            class="news-container border rounded-md hover:border-blue-800 hover:bg-slate-200"
+            data-aos="flip-left"
+            data-aos-duration="1000"
+            data-aos-easing="easy-in-out"
+          >
+            <div class="news-content p-5 flex flex-col gap-5 min-h-[545px]">
+              <h1 class="font-bold text-center">
+                Ruslan Panahov, missing in Armenia, will be handed over to
+                Azerbaijan
+              </h1>
+              <div class="overflow-hidden w-full h-full">
+                <img
+                  class="hover:scale-105 transition-all duration-300 ease-in-out"
+                  src="src/assets/images/soldierjpg.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="text-center px-10">
+                <i>
+                  Armenia has adopted a decision to extradite Ruslan Panakhov to
+                  Azerbaijan. Armenian media reported on this with reference to
+                  the National Security Service of the country.
+                </i>
+              </p>
+              <a
+                id="info-icon"
+                href="SoldierDetail.html"
+                class="relative text-black mt-1 w-full h-full text-center bg-blue-500 rounded-md p-1 hover:bg-blue-700 hover:text-white transition-all"
+                >More Info
+              </a>
+            </div>
+          </div>
+        </article>
+        <!-- Second Article End -->
+
+        <!-- Last Article -->
+        <article class="news-area">
+          <div
+            class="news-container border rounded-md hover:border-blue-800 hover:bg-slate-200"
+            data-aos="flip-left"
+            data-aos-duration="1500"
+            data-aos-easing="easy-in-out"
+          >
+            <div class="news-content p-5 flex flex-col gap-5 min-h-[545px]">
+              <h1 class="font-bold text-center">Metsamor NPP poisons Igdir</h1>
+              <div class="overflow-hidden w-full h-full">
+                <img
+                  class="hover:scale-105 transition-all duration-300 ease-in-out"
+                  src="src/assets/images/fabrik.jpg"
+                  alt="Fabrik.png"
+                />
+              </div>
+              <p class="text-center px-10">
+                <i>
+                  The Metsamor Nuclear Power Plant in Armenia, which has not
+                  stopped operating despite the end of its useful life,
+                  continues to emit poison in the direction of Turkey's Igdir
+                  province.
+                </i>
+              </p>
+
+              <a
+                id="info-icon"
+                href="fabrikDetail.html"
+                class="text-black relative mt-4 w-full h-full text-center bg-blue-500 rounded-md p-1 hover:bg-blue-700 hover:text-white transition-all duration-300 ease-in-out"
+                >More Info
+              </a>
+            </div>
+          </div>
+        </article>
+        <!-- Last Article End -->
+      </section>
+    </main>
+    <!-- Main Section End -->
+
+    <!-- Footer Section -->
+    <footer class="h-20 bg-blue-200">
+      <p class="w-full h-full flex justify-center items-center">
+        <i> &copy; 2024 Example Company. All rights reserved. </i>
+      </p>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- External Script File -->
+    <script src="src/scripts/app.js"></script>
+    <!-- External Script File -->
+
+    <!-- Data AOS CDN script  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Data AOS CDN script  -->
+  </body>
+</html>
